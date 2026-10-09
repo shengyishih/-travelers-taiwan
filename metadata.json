@@ -1,0 +1,6 @@
+{
+  "name": "島嶼行旅 - 台灣智慧旅遊規劃師",
+  "description": "專為台灣本島各縣市與外島量身打造的智慧旅遊規劃師。提供客製行程、美食推薦、在地住宿、大眾交通指南，搭配互動地圖、動態 Canvas 視覺化儀表板與語音導覽。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
