@@ -3,8 +3,7 @@ title: Travelers Taiwan
 emoji: 🗺️
 colorFrom: indigo
 colorTo: purple
-sdk: docker
-app_port: 3000
+sdk: static
 ---
 
 # 島嶼行旅｜台灣智慧旅遊規劃師
