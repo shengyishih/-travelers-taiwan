@@ -1,20 +1,21 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+---
+title: Travelers Taiwan
+emoji: 🗺️
+colorFrom: indigo
+colorTo: purple
+sdk: docker
+app_port: 3000
+---
 
-# Run and deploy your AI Studio app
+# 島嶼行旅｜台灣智慧旅遊規劃師
 
-This contains everything you need to run your app locally.
+台灣本島與離島的智慧旅遊規劃工具，提供縣市探索、客製行程、美食與旅宿推薦、互動地圖、Canvas 行程視覺化，以及語音導覽。
 
-View your app in AI Studio: https://ai.studio/apps/671c8274-47a2-4c37-8fcd-948964b93c6b
+## 本機執行
 
-## Run Locally
+```bash
+npm install
+npm run dev
+```
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+若要啟用 Gemini AI 客製行程，請在環境變數設定 `GEMINI_API_KEY`；未設定時會使用內建行程資料。
